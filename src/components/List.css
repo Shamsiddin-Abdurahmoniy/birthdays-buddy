@@ -1,0 +1,38 @@
+img {
+  object-fit: cover;
+  border-radius: 40px;
+  margin-right: 12px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+li h3 {
+  font-weight: 500;
+}
+li p {
+  color: #64748b;
+}
+li div {
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: auto;
+}
+.trash-icon {
+  font-size: 23px;
+  color: tomato;
+  transition: all 0.3s ease;
+}
+.trash-icon:hover {
+  font-size: 30px;
+  color: rgb(203, 40, 12);
+}
